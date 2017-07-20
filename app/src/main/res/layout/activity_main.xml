@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.this_is_kaushal.profile2.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:id="@+id/email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Password"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/email"
+        android:fontFamily="arial"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Sign In"
+        android:id="@+id/btnSignIn"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSignIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Sign Out"
+        android:id="@+id/btnSignOut"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSignOut"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Update Profile"
+        android:textAllCaps="false"
+        android:id="@+id/btnAddData"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAddData"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="My Profile"
+        android:textAllCaps="false"
+        android:id="@+id/btnViewData"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnViewData"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Others Users"
+        android:textAllCaps="false"
+        android:id="@+id/btnViewOther"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnViewOther"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Don't have account, Create now"
+        android:textAllCaps="false"
+        android:id="@+id/btnSignUp"/>
+
+</RelativeLayout>

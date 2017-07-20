@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.this_is_kaushal.profile2.ViewDataActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Information"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:id="@+id/user_info_heading"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_below="@id/user_info_heading"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:id="@+id/outputName"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" @example.com"
+        android:layout_below="@id/outputName"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:id="@+id/outputEmail"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:layout_below="@id/outputEmail"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:id="@+id/outputPhone"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
